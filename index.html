@@ -1,205 +1,56 @@
 <!DOCTYPE html>
-<html lang="th">
+<html>
 <head>
+<body style="background-color:#f9f9ff ;">
 <meta charset="UTF-8">
-<title>Job-Application</title>
-
-<style>
-/* พื้นหลังหน้า สีชมพูอ่อน*/
-.wrapper {
-    background-color: #ffeef5;
-    padding: 20px;
-    font-family: "Itim", sans-serif;
-}
-
-/* กล่องฟอร์ม สีชมพูอ่อน*/
-form {
-    max-width: 700px;
-    margin: auto;
-    background-color: #fffafc;
-    padding: 40px;
-    border-radius: 30px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
-
-/* หัวข้อ สีชมพู อยู่ตรงกลาง*/
-h1 {
-    text-align: center;
-    color: #ff7aa2;
-}
-
-/* กล่อง ขอบกรอบเล็กๆสีขมพู ข้างในสีขาว*/
-fieldset {
-    border: 2px solid #f3c6d3;
-    border-radius: 20px;
-    padding: 20px;
-    margin-bottom: 30px;
-    background-color: #ffffff;
-}
-/* กล่อง ขอบของกรอบใหญ่ เส้นทึบ สีชมพู */
-legend {
-    padding: 0 20px;
-    color: #ff7aa2;
-    font-weight: bold;
-}
-
-/* label(กำหนดให้หัวข้อแยกออกจากกรอบ ) และ input(กำหนดค่าทั้งหมดของinput) */
-label {
-    display: block;
-    margin-top: 10px;
-}
-
-input, select, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border-radius: 12px;
-    border: 1px solid #f3c6d3;
-}
-
-/* textarea กำหนดช่องใส่ข้อความ ว่าจะเอาให้ใหญ่ขนาดไหน */
-textarea {
-    resize: none;
-    height: 80px;
-}
-
-/* checkbox กำหนดช่องติ๊กเลือก */
-.skills input {
-    width: auto;
-}
-
-/* ===== จัด radio เพศ ===== */
-.gender-group {
-    margin-top: 5px;
-}
-
-.gender-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-top: 8px;
-}
-
-.gender-item input {
-    width: auto;
-    margin: 0;
-}
-
-/* CSS Validation Styling แสดงเมื่อข้อมูลไม่ถูกต้องหรือยังไม่ได้กรอกข้อมูล */
-input:required:invalid,
-textarea:required:invalid {
-    border-color: #ff6b6b;
-    background-color: #fff0f0;
-}
-/* ขึ้นสีเขียวที่กรอบช่องเพื่อแสดงว่ากรอกข้อมูลแล้วเรียบร้อย */
-input:required:valid,
-textarea:required:valid {
-    border-color: #6bcf9b;
-    background-color: #f0fff6;
-}
-
-/* ปุ่ม */
-button {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 20px;
-    background-color: #ff7aa2;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-</style>
+    <title>Alisa's Note</title>
 </head>
+    <nav>
+        <center>
+        <a href="index.html">หน้าแรก</a> |
+        <a href="aboutme.html">เกี่ยวกับฉัน</a> |
+        <a href="ohm.html">ชนสิษฎ์</a> |
+        <a href="om.html">ศตพร</a> |
+        <a href="aom.html">ณัฐธิดา</a> |      
+        <a href="fern.html">ศศิวิมล</a> | 
+        <a href="Windy.html">จารุเดช</a> |
+    </nav>
+        </center>
+<body>
+    <center>
+    <h1>╔═*.·:·.✧ ✦ ✧.·:·.*═╗</h1>
+    <h1>Welcome to My Website</h1>
+    <h1>╚═*.·:·.✧ ✦ ✧.·:·.*═╝</h1>
+   
+    <p>This is my first webpage!</p>
 
-<div class="wrapper">
+    <h2>About Me</h2>
+    <p>I am learning HTML 💻 .</p>
+    
+    <h2>My Favorite Fruits</h2>
+    
+        <ul>
+        <li>watermelon 🍉 </li>
+        <li>Orange 🍊 </li>
+        <li>Apple 🍎 </li>
+        </ul>
+    
+    <h2>Useful Links</h2>
+    <a href="https://www.w3schools.com">Learn at W3Schools</a><br>
+     
+    <h2>member</h2>
+    <a href="aboutme.html">╰┈➤[อลิสา]</a><br>
+    <a href="ohm.html">╰┈➤[ชนสิษฎ์]</a><br>
+    <a href="om.html">╰┈➤[คตพร]</a><br>
+    <a href="aom.html">╰┈➤[ณัฐธิดา]</a><br>
+    <a href="fern.html">╰┈➤[ศศิวิมล]</a><br>
+    <a href="Windy.html">╰┈➤[จารุเดช]</a><br>
 
-<form>
-
-<h1>╭── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ──╮</h1>
-<h1>ใบสมัครงาน</h1>
-<h1>╰── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ──╯</h1>
-
-<fieldset>
-    <legend>🍒 ข้อมูลส่วนตัว 🍒</legend>
-
-    <label>ชื่อ-นามสกุล *</label>
-    <input type="text" name="fullname" placeholder="กรอกชื่อ-นามสกุล">
-
-    <label>เพศ *</label>
-    <div class="gender-group">
-        <label class="gender-item">
-            <input type="radio" name="gender" value="male" required> ชาย
-        </label>
-        <label class="gender-item">
-            <input type="radio" name="gender" value="female"> หญิง
-        </label>
-        <label class="gender-item">
-            <input type="radio" name="gender" value="other"> อื่นๆ
-        </label>
-    </div>
-
-    <label>อีเมล *</label>
-    <input type="email" name="email" placeholder="example@email.com">
-
-    <label>เบอร์โทรศัพท์ *</label>
-    <input type="tel" pattern="[0-9]{10}" placeholder="0812345678">
-
-    <label>วันเกิด *</label>
-    <input type="date">
-</fieldset>
-
-<fieldset>
-    <legend>🍒 ข้อมูลการสมัครงาน 🍒</legend>
-
-    <label>ตำแหน่งที่สนใจ *</label>
-    <select>
-        <option value="">-- กรุณาเลือก --</option>
-        <option>พนักงานขาย</option>
-        <option>พนักงานบริการ</option>
-        <option>แอดมิน</option>
-        <option>ผู้จัดการ</option>
-        <option>บัญชี</option>
-        <option>ผู้ช่วยผู้จัดการ</option>
-    </select>
-
-    <label>ประสบการณ์ทำงาน(ปี) *</label>
-    <input type="number" min="0">
-</fieldset>
-
-<fieldset>
-    <legend>🍒 ทักษะ 🍒</legend>
-    <div class="skills">
-        <input type="checkbox"> ทักษะด้านการสื่อสารดี<br>
-        <input type="checkbox"> ทักษะด้านการทำงานเป็นทีม<br>
-        <input type="checkbox"> ทักษะด้านการใช้คอมพิวเตอร์<br>
-        <input type="checkbox"> ทักษะด้านงานบริการ<br>
-        <input type="checkbox"> ทักษะด้านภาษาอังกฤษ<br>
-        <input type="checkbox"> ทักษะด้านการจัดการอารมณ์<br>
-        <input type="checkbox"> ทักษะด้านการแก้ไขปัญหาเฉพาะหน้า
-    </div>
-</fieldset>
-
-<fieldset>
-    <legend>🍒 เพิ่มเติม 🍒</legend>
-
-    <label>แนะนำตัว *</label>
-    <textarea></textarea>
-
-    <label>เหตุผลที่อยากจะเข้าทำงาน *</label>
-    <textarea></textarea>
-
-    <label>อัปโหลด Resume (PDF) *</label>
-    <input type="file" accept=".pdf">
-
-    <label>อัปโหลดรูปถ่ายสมัครงาน *</label>
-    <input type="file" accept="image/*">
-</fieldset>
-
-<button type="submit">ส่งใบสมัคร ►</button>
-
-</form>
-
-</div>
-
+    <a href="basichtml2.html">Next</a><br>
+    
+    <br><br>
+    <button>Click Me!</button>
+    </center>
+    </body>
+</body>
 </html>
