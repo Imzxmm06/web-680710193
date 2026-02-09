@@ -1,0 +1,92 @@
+/* พื้นหลังทั้งหน้า — เขียวอ่อนมาก */
+body {
+    background-color: #d4ecdb;
+}
+
+.logo {
+    color: #0a4d39;
+    font-size: 2rem;
+}
+.price {
+    color: #011408;;
+    font-weight: bold;
+}
+.bestseller {
+    background-color: #f5e965; /* เหลืองอ่อน */
+    color: #b31515;
+}
+.new {
+    background-color: #dee946; /* เขียวอ่อน */
+    color: #ad1515;            /* เขียวเข้ม */
+}
+/* Hero Section — ไล่สีเขียว (gradient) */
+.hero-section {
+    background: linear-gradient(
+        135deg,
+        #19883e,         /* เขียวเข้ม */
+        #c7db8f          /* เขียวสด */
+    );
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+/* Hero — ข้อความใหญ่กลางหน้า */
+.hero-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* หัวข้อส่วนต่าง ๆ */
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #082e0b;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* ชื่อเมนูในการ์ด */
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.3rem;
+}
+
+/* คำอธิบายเมนู */
+.card-desc {
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+/* ลิงก์ใน nav */
+.main-nav a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-weight: 500;
+}
+.main-nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Badge text */
+.badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;   /* ตัวพิมพ์ใหญ่ */
+    letter-spacing: 0.05em;
+}
+/* ส่วนเมนู — เขียวอ่อน */
+#menu {
+    background-color: #bde4bd;
+    padding: 3rem 2rem;
+}
+
+/* Footer — เขียวเข้ม เหมือน Header */
+.site-footer {
+    background-color: #114425;
+    color: rgba(255, 255, 255, 0.8);   /* ขาว 80% */
+    text-align: center;
+    padding: 2rem;
+}
